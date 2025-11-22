@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ControlRiegoGUI",
+            "request": "launch",
+            "mainClass": "ControlRiegoGUI",
+            "projectName": "dashend supply_d7b1ca48"
+        },
+        {
+            "type": "java",
+            "name": "ControlRiego",
+            "request": "launch",
+            "mainClass": "ControlRiego",
+            "projectName": "dashend supply_d7b1ca48"
+        },
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "java",
+            "name": "NurseryIrrigationSystem",
+            "request": "launch",
+            "mainClass": "NurseryIrrigationSystem",
+            "projectName": ""
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open index.HTML",
+            "file": "c:\\Users\\Lenovo\\OneDrive\\Documentos\\dashend supply\\index.HTML"
+        }
+    ]
+}
